@@ -1,3 +1,5 @@
+// 1. Function to compare 2 values
+
 const assertEqual = function (actual, expected) {
   let message = '';
   if (actual === expected) {
@@ -7,6 +9,19 @@ const assertEqual = function (actual, expected) {
   }
   console.log(message);
 };
+
+// Function that only takes the 'tail' of an array (everything but the head, first item)
+
+const tail = (array) => {
+  const newArray = [];
+  for (let i = 1; i < array.length; i++) {
+    newArray.push(array[i]);
+  }
+  return newArray;
+};
+
+
+// Upgrade of AssertEqual function to be able to compare two arrays
 
 const assertArraysEqual = function (array1, array2) {
   let isEquals = true;
@@ -34,13 +49,6 @@ const assertArraysEqual = function (array1, array2) {
   console.log(message);
 };
 
-const tail = (array) => {
-  const newArray = [];
-  for (let i = 1; i < array.length; i++) {
-    newArray.push(array[i]);
-  }
-  return newArray;
-};
 
 const result = tail(['Hello', 'Lighthouse', 'Labs']);
 assertArraysEqual(result, ['Lighthouse', 'Labs']);
