@@ -8,5 +8,12 @@ const assertEqual = function (actual, expected) {
   console.log(message);
 };
 
-assertEqual('bootcamp', 'Bootcamp');
-assertEqual(34, 34);
+const head = (array) => {
+  return array[0];
+};
+
+const param1 = head([5, 6, 7]);
+const param2 = 5;
+assertEqual(param1, param2);
+
+assertEqual(head(['Hello', 'Lighthouse', 'Labs']), 'Hello');
