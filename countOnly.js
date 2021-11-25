@@ -33,7 +33,7 @@ const firstNames = ['Karl', 'Salima', 'Agouhanna', 'Fang', 'Kavith', 'Jason', 'S
 const result1 = countOnly(firstNames, { Jason: true, Karima: true, Fang: true, Agouhanna: false });
 
 assertEqual(result1['Jason'], 1);
-// conpare counted result (nuber of times the name is in firstNames array) with the provided outcome.
+// compare counted result (nuber of times the name is in firstNames array) with the provided outcome.
 assertEqual(result1['Karima'], undefined);
 assertEqual(result1['Fang'], 2);
 assertEqual(result1['Agouhanna'], undefined);
