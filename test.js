@@ -6,10 +6,10 @@ const planetMoons = {
   jupiter: 67,
   saturn: 62,
   uranus: 27,
-  neptune: 14
+  neptune: 14,
 };
-
+// local change
 for (let planet in planetMoons) {
   let numberOfMoons = planetMoons[planet];
-  console.log("Planet: " + planet + ", # of Moons: "+ numberOfMoons);
+  console.log('Planet: ' + planet + ', # of Moons: ' + numberOfMoons);
 }
