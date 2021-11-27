@@ -12,15 +12,15 @@ const assertEqual = (actual, expected) => {
 
 const countOnly = (allItems, itemsToCount) => {
   const results = {};
-for (const item of allItems) {
-  if (results[item]) {
-    if (itemsToCount[item]) {
-    results[item]++;
-  } 
-} else {
-    results[item] = 1;
+  for (const item of allItems) {
+    if (results[item]) {
+      if (itemsToCount[item]) {
+        results[item]++;
+      }
+    } else {
+      results[item] = 1;
+    }
   }
-}
   return results;
 };
 
