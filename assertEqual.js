@@ -8,5 +8,6 @@ const assertEqual = function (actual, expected) {
   console.log(message);
 };
 
-assertEqual('bootcamp', 'Bootcamp');
-assertEqual(34, 34);
+
+
+module.exports = assertEqual;
