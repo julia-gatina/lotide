@@ -1,3 +1,5 @@
+// compares two arrays for a perfect match and prints result as message;
+
 const eqArrays = require('./eqArrays');
 
 const assertArraysEqual = function (arr1, arr2) {

@@ -1,5 +1,5 @@
-// Function that will return all the indices (zero-based positions)
-// in the string where each character is found.
+// returns all the indices (zero-based positions)
+// of each character in a string;
 
 const assertArraysEqual = function (array1, array2) {
   let isEquals = true;

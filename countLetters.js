@@ -1,3 +1,5 @@
+// counts how many times each characted appears in a given sentence
+
 const assertEqual = (actual, expected) => {
   let message = '';
   if (actual === expected) {

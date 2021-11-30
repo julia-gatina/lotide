@@ -1,8 +1,8 @@
 {
-  "name": "lotide",
+  "name": "@julia-gatina/lotide",
   "version": "1.0.0",
-  "description": "a project inspired by the Lodash project",
-  "main": "assertArraysEqual.js",
+  "description": "a project inspired by the Lodash library [Lodash](https://lodash.com)",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },

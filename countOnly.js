@@ -1,3 +1,5 @@
+// counts only those values of an array that are set to true;
+
 const assertEqual = (actual, expected) => {
   let message = '';
   if (actual === expected) {
@@ -7,8 +9,6 @@ const assertEqual = (actual, expected) => {
   }
   console.log(message);
 };
-// assertEqual('bootcamp', 'Bootcamp');
-// assertEqual(34, 34);
 
 const countOnly = (allItems, itemsToCount) => {
   const results = {};

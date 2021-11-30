@@ -1,3 +1,6 @@
+// returns a slice of array with elements taken from the 
+// beginning until a callback function returns true
+
 const eqArrays = function (array1, array2) {
   let areEquals = true;
 

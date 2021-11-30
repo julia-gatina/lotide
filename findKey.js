@@ -1,3 +1,5 @@
+// returns the first key of the matched element, that meets the present criteria
+
 const assertEqual = function (actual, expected) {
   let message = '';
   if (actual === expected) {
@@ -7,8 +9,6 @@ const assertEqual = function (actual, expected) {
   }
   console.log(message);
 };
-
-//Returns the key of the matched element, else undefined.
 
 const findKey = function (object, callback) {
   let keyFound;

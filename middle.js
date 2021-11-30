@@ -1,8 +1,5 @@
-const eqArrays = require('./eqArrays');
-const assertArraysEqual = require('./assertArraysEqual');
+// returns 'middle' value/s of an array
 
-
-// Function to return the 'middle' of an array
 const middle = array => {
   const onlyMiddleArray = [];
 
@@ -23,7 +20,6 @@ const middle = array => {
       onlyMiddleArray.push(array[middleIndexes.second]);
     }
   }
-  // < 3 items - []
   return onlyMiddleArray;
 };
 

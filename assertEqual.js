@@ -1,3 +1,5 @@
+// comapres two given values for a perfect match;
+
 const assertEqual = function (actual, expected) {
   let message = '';
   if (actual === expected) {

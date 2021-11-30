@@ -1,6 +1,4 @@
-// An array to map
-// A callback function
-// The map function will return a new array based on the results of the callback function.
+// returns a new array based on the results of the callback function
 
 const eqArrays = function (array1, array2) {
   let areEquals = true;

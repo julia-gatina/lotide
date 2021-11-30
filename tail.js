@@ -1,5 +1,4 @@
-// 1. Function to compare 2 values
-// Function that only takes the 'tail' of an array (everything but the head, first item)
+// returns the 'tail' of an array, i.e. everything but the 'head'
 
 const tail = array => {
   const newArray = [];

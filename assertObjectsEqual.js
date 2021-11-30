@@ -1,3 +1,6 @@
+// compares two objects and checks if their keys and 
+// key values are equal;
+
 const eqObjects = function (object1, object2) {
   let areEqual = true;
   const object1Keys = Object.keys(object1);

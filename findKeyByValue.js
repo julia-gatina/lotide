@@ -1,3 +1,5 @@
+// finds key of an object that has a matching value
+
 const assertEqual = function (actual, expected) {
   let message = '';
   if (actual === expected) {
