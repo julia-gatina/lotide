@@ -16,7 +16,7 @@ const findKey = function (object, callback) {
   for (const key in object) {
     // find first key for which callback returns truthy value
     if (callback(object[key])) {
-      //return that key, if no key found, return indefined
+      //return that key, if no key found, will return indefined
       keyFound = key;
       break;
     }
